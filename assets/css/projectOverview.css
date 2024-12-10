@@ -1,0 +1,222 @@
+section {
+  width: 100%;
+  padding: 0 10rem;
+  height: fit-content;
+  margin-bottom: 10rem;
+}
+
+.mainpageTitle {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  color: #e6e6e6;
+}
+
+.mainpageTitle h1 {
+  font-size: 8rem;
+  margin-bottom: 12px;
+}
+
+.mainpageTitle p {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.projectList {
+  /* display: flex;
+  justify-content: space-between; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 160px;
+  grid-row-gap: 160px;
+}
+
+.project {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+
+.project {
+  transition: all 0.1s ease-in-out;
+}
+
+.project:hover {
+  scale: 1.01;
+}
+
+/* .project:not(:hover) {
+  transform: scale(1);
+} */
+
+.projectTitle {
+  font-size: 3.5rem;
+  color: #e6e6e6;
+  margin-bottom: 12px;
+}
+
+.projectDescription {
+  font-size: 1.3rem;
+  color: #e6e6e6;
+  margin-bottom: 32px;
+  height: 100%;
+}
+
+.projectBottomPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.projectButton {
+  background-color: #e6e6e6;
+  color: #060606;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.projectButton p {
+  font-size: 1.5rem;
+  margin-bottom: 3px;
+}
+
+.projectButton:hover p {
+  text-decoration: underline;
+  text-decoration-color: #1dc4b3;
+  color: #e6e6e6;
+}
+
+.projectButton:hover img {
+  filter: invert(100%) sepia(70%) saturate(591%) hue-rotate(174deg)
+    brightness(117%) contrast(80%);
+}
+
+.projectButton:hover {
+  background-color: #060606;
+  outline: 1px solid #1dc4b3;
+}
+
+.projectDate {
+  font-size: 1.5rem;
+  color: #e6e6e6;
+}
+
+.noprojectDisplay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 760px;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  right: 160px;
+  transform: translateY(-50%);
+}
+
+.noprojectDisplay h2 {
+  font-size: 4rem;
+  margin-bottom: 24px;
+  color: #e6e6e6;
+}
+
+.noprojectDisplay p {
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+  color: #e6e6e6;
+  font-size: 1.3rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+}
+
+.newsSignUp {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  height: 50px;
+}
+
+#newsEmail {
+  flex: 2;
+  height: 100%;
+  padding: 13px;
+  font-size: 1.5rem;
+  color: #060606;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+#newsEmail::placeholder {
+  color: #060606;
+  font-size: 1.5rem;
+}
+
+#newsEmail:focus,
+#newsEmail:active {
+  outline: 2px solid #1dc4b3;
+}
+
+.newsSignUp button {
+  flex: 1;
+  height: 100%;
+  background-color: #e6e6e6;
+  color: #060606;
+  font-size: 1.5rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  transition: all 0.1s ease-in-out;
+}
+
+#newsSignUpButtonDecoLeft {
+  align-self: flex-start;
+  transition: all 0.1s ease-in-out;
+}
+
+#newsSignUpButtonDecoRight {
+  align-self: flex-end;
+  transition: all 0.1s ease-in-out;
+}
+
+#newsSignUpButton:hover #newsSignUpButtonDecoLeft,
+#newsSignUpButton:hover #newsSignUpButtonDecoRight {
+  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
+    brightness(90%) contrast(85%);
+}
+
+#newsSignUpButton:hover {
+  color: #1dc4b3;
+  cursor: pointer;
+}
+
+/* remove when there are projects to be displayed */
+#temp {
+  height: 100svh;
+}

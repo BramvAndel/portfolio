@@ -1,0 +1,193 @@
+section {
+  width: 100%;
+  padding: 0 10rem;
+  height: fit-content;
+  margin-bottom: 10rem;
+}
+
+.projectTitle {
+  color: #e6e6e6;
+  width: 100%;
+  padding: 200px 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projectTitle h1 {
+  font-size: 7rem;
+}
+
+.projectTitle p {
+  font-size: 1.3rem;
+  max-width: 900px;
+}
+
+.aboutProject {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  width: 100%;
+}
+
+.aboutProject img {
+  flex: 1;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.aboutProjectText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.aboutProjectText h2 {
+  font-size: 3.5rem;
+  color: #e6e6e6;
+  margin-bottom: 12px;
+}
+
+.aboutProjectText p {
+  font-size: 1.3rem;
+  color: #e6e6e6;
+}
+
+.projectMadewidth {
+  width: 100%;
+  background-color: #e6e6e6;
+  color: #060606;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  height: 200px;
+  margin-bottom: 160px;
+}
+
+.projectMadewidth h2 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.projectMadewidth img {
+  width: 60px;
+  height: 60px;
+}
+
+#projectMadeWidthDecoLeft {
+  align-self: flex-end;
+}
+
+#projectMadeWidthDecoRight {
+  align-self: flex-start;
+}
+
+.centerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.projectProblemStuff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 128px;
+  margin-bottom: 10rem;
+  height: 420px;
+  color: #e6e6e6;
+}
+
+.projectProblemStuff > div > h2 {
+  font-size: 3.5rem;
+}
+
+.projectProblemStuff > div > p {
+  font-size: 1.3rem;
+}
+
+.projectTop {
+  margin-bottom: 160px;
+  flex: 1;
+}
+
+.projectBottom {
+  margin-top: 160px;
+  flex: 1;
+}
+
+.contactMeBalk {
+  width: 100%;
+  color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  height: 200px;
+  margin-bottom: 160px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#contactMeBalkDecoLeft {
+  align-self: flex-start;
+}
+
+#contactMeBalkDecoRight {
+  align-self: flex-end;
+}
+
+.contactMeButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+  height: 60px;
+  padding: 0.3rem;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  color: #060606;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+.contactMeButton:hover #contactmeButtonDecoLeft,
+.contactMeButton:hover #contactmeButtonDecoRight {
+  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
+    brightness(90%) contrast(85%);
+}
+
+.contactMeButton:hover {
+  color: #18a597;
+  background-color: #d9d9d9;
+}
+
+#contactmeButtonDecoLeft {
+  align-self: flex-start;
+  transition: all 0.1s ease-in-out;
+}
+
+#contactmeButtonDecoRight {
+  align-self: flex-end;
+  transition: all 0.1s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projectMaybe {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}

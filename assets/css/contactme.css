@@ -1,0 +1,197 @@
+main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100svh;
+  width: 100%;
+  z-index: 1;
+  padding: 80px;
+}
+
+#contactForm {
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  padding: 32px;
+  height: fit-content;
+  align-self: flex-end;
+  margin-right: 80px;
+}
+
+#contactForm input:-webkit-autofill,
+#contactForm input:-webkit-autofill:hover,
+#contactForm input:-webkit-autofill:focus,
+#contactForm textarea:-webkit-autofill,
+#contactForm textarea:-webkit-autofill:hover,
+#contactForm textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #060606;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.fields {
+  display: flex;
+}
+
+.fieldsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.fieldsLeft > input {
+  border: none;
+  outline: none;
+  padding: 1.1rem;
+  border-radius: 4px;
+  color: #060606;
+  font-size: 1.5rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fieldsLeft input:focus,
+.fieldsLeft input:active {
+  outline: 2px solid #1dc4b3;
+}
+
+.fieldsRight #contactMessage:focus,
+.fieldsRight #contactMessage:active {
+  outline: 2px solid #1dc4b3;
+}
+
+input::placeholder {
+  color: #060606;
+}
+
+#contactMessage {
+  border: none;
+  outline: none;
+  padding: 1.1rem;
+  border-radius: 4px;
+  color: #060606;
+  font-size: 1.5rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  resize: none;
+  width: 360px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+textarea::placeholder {
+  color: #060606;
+  text-align: left;
+  vertical-align: top;
+}
+
+#sendMessage {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #060606;
+  color: #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  font-size: 2rem;
+  height: fit-content;
+  width: 100%;
+  height: 64px;
+}
+
+#sendMessage:hover #sendMessageDecoLeft,
+#sendMessage:hover #sendMessageDecoRight {
+  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
+    brightness(90%) contrast(85%);
+}
+
+#sendMessage:hover {
+  color: #1dc4b3;
+}
+
+#sendMessageDecoLeft {
+  align-self: flex-start;
+}
+
+#sendMessageDecoRight {
+  align-self: flex-end;
+}
+
+.fieldsRight {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#required {
+  color: #929292;
+  font-size: 0.9rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+#getInTouch {
+  font-size: 7rem;
+  color: #e6e6e6;
+  align-self: flex-start;
+}
+
+.inputError {
+  outline: 2px solid #fc3939 !important;
+}
+#errorMessage,
+#successMessage {
+  font-size: 1.2rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+  color: #e6e6e6;
+}
+
+#errorMessage {
+  background: #fc3939;
+}
+
+#successMessage {
+  background: #1dc4b3;
+}
+
+#errorMessage {
+  background: #fc3939;
+  color: #e6e6e6;
+  font-size: 1.2rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+
+#successMessage {
+  background: #1dc4b3;
+  color: #e6e6e6;
+  font-size: 1.2rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+}

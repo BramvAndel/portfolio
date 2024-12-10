@@ -1,0 +1,54 @@
+section {
+  width: 100%;
+  padding: 0 9rem;
+  height: fit-content;
+  margin-bottom: 10rem;
+  color: #e6e6e6;
+}
+
+.topTitle {
+  margin-top: 160px;
+}
+
+.aboutMeTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutMeImage {
+  height: 500px;
+  aspect-ratio: auto;
+  border-radius: 10px;
+}
+
+.title h1 {
+  font-size: 8rem;
+}
+
+.title p {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.aboutmeDeeper {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.aboutmeDeeper p {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  max-width: 1000px;
+  flex: 1.5;
+}
+
+.aboutmeDeeper img {
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: 10px;
+  flex: 1;
+}

@@ -1,0 +1,124 @@
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transition: top 0.3s, transform 0.3s ease-in-out;
+}
+
+header a {
+  color: #e6e6e6;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+header a:hover {
+  color: #1dc4b3;
+}
+
+#menuToggle {
+  transition: all 0.1s ease-in-out;
+  fill: #e6e6e6;
+}
+
+#menuToggle:hover {
+  fill: #1dc4b3;
+  cursor: pointer;
+}
+
+#navbarMenuToggle {
+  transition: all 0.1s ease-in-out;
+  fill: #e6e6e6;
+}
+
+#navbarMenuToggle:hover {
+  fill: #1dc4b3;
+  cursor: pointer;
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
+nav {
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  transform: translateX(110%);
+  transition: transform 0.3s ease-in-out;
+}
+
+nav.visible {
+  transform: translateX(0);
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  color: #e6e6e6;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #1dc4b3;
+}
+
+/* #mask {
+  z-index: 1000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  display: none;
+  mix-blend-mode: difference;
+  pointer-events: none;
+} */
+
+#navbarMenuToggle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  transition: all 0.1s ease-in-out;
+}
+
+#loginSymbolPerson {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+#loginSymbolPerson:hover {
+  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
+    brightness(90%) contrast(85%);
+  cursor: pointer;
+}

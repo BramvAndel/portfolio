@@ -1,0 +1,9 @@
+INSERT INTO technologies (name, icon_url) VALUES ('HTML', '../database/techIcons/html_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('JavaScript', '../database/techIcons/js_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('PHP', '../database/techIcons/php_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('Java', '../database/techIcons/java_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('Python', '../database/techIcons/python_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('C#', '../database/techIcons/cs_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('C++', '../database/techIcons/cpp_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('Database', '../database/techIcons/db_icon.svg') ON DUPLICATE KEY UPDATE id=id;
+INSERT INTO technologies (name, icon_url) VALUES ('Figma', '../database/techIcons/figma_icon.svg') ON DUPLICATE KEY UPDATE id=id;

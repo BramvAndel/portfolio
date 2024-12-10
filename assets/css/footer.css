@@ -1,0 +1,200 @@
+footer {
+  background-color: #e6e6e6;
+  position: relative;
+  height: 390px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+#footerDecoRight {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+#footerDecoLeft {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.footerFooter {
+  background-color: #060606;
+  color: #e6e6e6;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.footerContentPages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.footerlink {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContentPages a {
+  color: #060606;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  transition: text-decoration-color 0.1s ease-in-out;
+}
+
+.footerContentPages a:hover {
+  text-decoration-color: #1dc4b3;
+}
+
+.footerContentMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  flex: 1;
+  border-right: 0.3rem solid #060606;
+  border-left: 0.3rem solid #060606;
+}
+
+.footerContentMiddle h2 {
+  font-size: 8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #060606 !important;
+}
+
+.footerContactinformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.footerContactinformation a {
+  color: #060606;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  transition: color 0.1s ease-in-out;
+}
+
+#github-icon,
+#linkedin-icon,
+#tel-icon,
+#mail-icon {
+  width: 32px;
+  height: 32px;
+}
+
+#github-icon path,
+#linkedin-icon path,
+#tel-icon path,
+#mail-icon path {
+  fill: #060606;
+}
+
+.footerContactinformation a:hover svg path {
+  fill: #1dc4b3 !important;
+}
+
+.footerContactinformation a:hover svg {
+  scale: 1.1;
+}
+
+.footerContentNewsLetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.footerContentNewsLetter h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+#email {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #060606;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  width: 260px;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#email::placeholder {
+  color: #060606;
+}
+
+#email:focus,
+#email:active {
+  outline: 2px solid #1dc4b3;
+}
+
+#subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  height: 45px;
+  background-color: #060606;
+  border-radius: 4px;
+  color: #e6e6e6;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0.3rem;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+#subscribeDecoLeft {
+  align-self: flex-start;
+  transition: all 0.1s ease-in-out;
+}
+
+#subscribeDecoRight {
+  align-self: flex-end;
+  transition: all 0.1s ease-in-out;
+}
+
+#subscribe:hover #subscribeDecoLeft,
+#subscribe:hover #subscribeDecoRight {
+  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
+    brightness(90%) contrast(85%);
+}
+
+#subscribe:hover {
+  color: #1dc4b3;
+  cursor: pointer;
+}

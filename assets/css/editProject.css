@@ -1,0 +1,165 @@
+#editProjectForm,
+#addProjectForm {
+  width: 100%;
+  padding: 12.5rem 11.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.editTitle {
+  align-self: flex-start;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.editTitle label {
+  font-size: 2rem;
+  color: #e6e6e6;
+  background-color: #060606;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 0.3rem;
+  margin-right: 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.editTitle input {
+  height: 4rem;
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: #e6e6e6;
+}
+
+.mainEditStuf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.editField {
+  display: flex;
+  flex-direction: column;
+}
+
+.editField label {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  height: 4rem;
+  width: 100%;
+  color: #e6e6e6;
+  background-color: #060606;
+  padding-left: 0.8rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.editField textarea {
+  height: 15rem;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  resize: none;
+}
+
+.editField textarea:focus,
+.editField textarea:active {
+  outline: 2px solid #1dc4b3;
+}
+
+.editField:focus-within label {
+  color: #1dc4b3;
+}
+
+.editField input {
+  height: 15rem;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.3rem;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: #e6e6e6;
+}
+
+.bottomEditRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.leftSideBottomRow {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  gap: 0.8rem;
+}
+
+.leftSideBottomRow button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+}
+
+.leftSideBottomRow button img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.rightSideBottomRow {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  gap: 2rem;
+}
+
+.rightSideBottomRow button,
+.rightSideBottomRow a {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: #e6e6e6;
+  color: #060606;
+  text-decoration: none;
+}
+
+.rightSideBottomRow button:hover,
+.leftSideBottomRow button:hover,
+.rightSideBottomRow a:hover {
+  background-color: #1dc4b3;
+  color: #e6e6e6;
+  cursor: pointer;
+}
+
+#cancelButton:hover {
+  background-color: #fc3939 !important;
+}
+
+.techButton.selected {
+  background-color: #1dc4b3;
+}
