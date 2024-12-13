@@ -59,9 +59,15 @@
                         }
                     ?>
                     <button type="submit" id="sendMessage">
-                        <img src="../assets/images/topLeftSmall.svg" alt="decoration" id="sendMessageDecoLeft">
+                        <svg id="sendMessageDecoLeft" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.9961 1.41821L1.70729 20.707" stroke-linecap="round"/>
+                            <path d="M14.4375 2.57544L2.86422 14.1487" stroke-linecap="round"/>
+                        </svg>
                         Send message
-                        <img src="../assets/images/bottomRightSmall.svg" alt="decoration" id="sendMessageDecoRight">
+                        <svg id="sendMessageDecoRight" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.00391 20.5818L20.2927 1.29299" stroke-linecap="round"/>
+                            <path d="M7.5625 19.4246L19.1358 7.85128" stroke-linecap="round"/>
+                        </svg>
                     </button>
                 </div>
             </div>

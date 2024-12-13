@@ -26,7 +26,7 @@ main {
 #contactForm textarea:-webkit-autofill:hover,
 #contactForm textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: var(--main-color);
-  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  -webkit-box-shadow: 0 0 0px 1000px var(--secondary-color-light) inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -57,12 +57,12 @@ main {
 
 .fieldsLeft input:focus,
 .fieldsLeft input:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 .fieldsRight #contactMessage:focus,
 .fieldsRight #contactMessage:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 input::placeholder {
@@ -108,22 +108,31 @@ textarea::placeholder {
   height: 64px;
 }
 
-#sendMessage:hover #sendMessageDecoLeft,
-#sendMessage:hover #sendMessageDecoRight {
-  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
-    brightness(90%) contrast(85%);
+#sendMessage:hover #sendMessageDecoLeft path,
+#sendMessage:hover #sendMessageDecoRight path {
+  stroke: var(--accent-color);
 }
 
 #sendMessage:hover {
-  color: #1dc4b3;
+  color: var(--accent-color);
 }
 
 #sendMessageDecoLeft {
   align-self: flex-start;
 }
 
+#sendMessageDecoLeft path {
+  stroke: var(--secondary-color);
+  stroke-width: 2;
+}
+
 #sendMessageDecoRight {
   align-self: flex-end;
+}
+
+#sendMessageDecoRight path {
+  stroke: var(--secondary-color);
+  stroke-width: 2;
 }
 
 .fieldsRight {
@@ -169,7 +178,7 @@ textarea::placeholder {
 }
 
 #successMessage {
-  background: #1dc4b3;
+  background: var(--accent-color);
 }
 
 #errorMessage {
@@ -185,7 +194,7 @@ textarea::placeholder {
 }
 
 #successMessage {
-  background: #1dc4b3;
+  background: var(--accent-color);
   color: var(--secondary-color);
   font-size: 1.2rem;
   font-family: "Arvo", serif;
