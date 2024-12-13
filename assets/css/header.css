@@ -26,7 +26,7 @@ header a {
 }
 
 header a:hover {
-  color: var(--accant-color);
+  color: var(--accent-color);
 }
 
 #menuToggle {
@@ -35,7 +35,7 @@ header a:hover {
 }
 
 #menuToggle:hover {
-  fill: var(--accant-color);
+  fill: var(--accent-color);
   cursor: pointer;
 }
 
@@ -45,7 +45,7 @@ header a:hover {
 }
 
 #navbarMenuToggle:hover {
-  fill: var(--accant-color);
+  fill: var(--accent-color);
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  text-decoration-color: var(--accant-color);
+  text-decoration-color: var(--accent-color);
 }
 
 /* #mask {
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 #loginSymbolPerson:hover svg path {
-  fill: var(--accant-color);
+  fill: var(--accent-color);
   cursor: pointer;
 }
 
