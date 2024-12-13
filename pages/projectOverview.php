@@ -56,7 +56,9 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <div class="projectBottomPart">
                             <a href="./project.php?project=<?php echo urlencode($project['title']); ?>" class="projectButton">
                                 <p>Learn more</p>
-                                <img src="../assets/images/arrow.svg" alt="#">
+                                <svg width="18" height="36" viewBox="0 0 18 36" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2354 19.0665L8.74991 27.552L6.62891 25.431L14.0539 18.006L6.62891 10.581L8.74991 8.45996L17.2354 16.9455C17.5166 17.2268 17.6746 17.6082 17.6746 18.006C17.6746 18.4037 17.5166 18.7852 17.2354 19.0665Z"/>
+                                </svg>
                             </a>
                             <p class="projectDate"><?php echo htmlspecialchars($project['project_date']); ?></p>
                         </div>

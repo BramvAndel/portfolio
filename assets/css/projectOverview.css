@@ -47,11 +47,11 @@ section {
 }
 
 .project {
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .project:hover {
-  scale: 1.01;
+  scale: 0.99;
 }
 
 /* .project:not(:hover) {
@@ -95,15 +95,18 @@ section {
   margin-bottom: 3px;
 }
 
+.projectButton svg path {
+  fill: var(--main-color);
+}
+
 .projectButton:hover p {
   text-decoration: underline;
   text-decoration-color: var(--accent-color);
   color: var(--secondary-color);
 }
 
-.projectButton:hover img {
-  filter: invert(100%) sepia(70%) saturate(591%) hue-rotate(174deg)
-    brightness(117%) contrast(80%);
+.projectButton:hover svg path {
+  fill: var(--secondary-color);
 }
 
 .projectButton:hover {

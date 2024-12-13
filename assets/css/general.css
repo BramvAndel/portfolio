@@ -11,6 +11,19 @@
   --nav-color: rgba(0, 0, 0, 0.5);
 }
 
+.darkmode {
+  --main-color: #e6e6e6;
+  --secondary-color: #060606;
+  --secondary-color-light: #1a1a1a;
+  --accent-color: #1dc4b3;
+  --header-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 70%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --nav-color: rgba(255, 255, 255, 0.5);
+}
+
 *,
 *::before,
 *::after {
