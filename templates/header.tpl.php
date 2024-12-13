@@ -8,7 +8,7 @@ $pathPrefix = $isIndexPage ? './' : '../';
 
 <header>
     <a href="<?php echo $pathPrefix; ?>index.php">BvA</a>
-    <svg id="menuToggle" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="menuToggle" id="menuToggle" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M32 32H40V40H32V32ZM20 32H28V40H20V32ZM8 32H16V40H8V32ZM32 20H40V28H32V20ZM20 20H28V28H20V20ZM8 20H16V28H8V20ZM32 8H40V16H32V8ZM20 8H28V16H20V8ZM8 8H16V16H8V8Z"/>
     </svg>
 
@@ -34,7 +34,4 @@ $pathPrefix = $isIndexPage ? './' : '../';
             </svg>
         </a>
     <?php endif; ?>
-    <svg id="navbarMenuToggle" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 32H40V40H32V32ZM20 32H28V40H20V32ZM8 32H16V40H8V32ZM32 20H40V28H32V20ZM20 20H28V28H20V20ZM8 20H16V28H8V20ZM32 8H40V16H32V8ZM20 8H28V16H20V8ZM8 8H16V16H8V8Z"/>
-    </svg>
 </nav>

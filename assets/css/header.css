@@ -1,5 +1,5 @@
 header {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -50,7 +50,7 @@ header a:hover {
 }
 
 nav {
-  z-index: 1000;
+  z-index: 200;
   display: flex;
   justify-content: center;
   align-items: center;
