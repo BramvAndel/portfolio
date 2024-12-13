@@ -26,7 +26,7 @@ header a {
 }
 
 header a:hover {
-  color: #1dc4b3;
+  color: var(--accant-color);
 }
 
 #menuToggle {
@@ -35,7 +35,7 @@ header a:hover {
 }
 
 #menuToggle:hover {
-  fill: #1dc4b3;
+  fill: var(--accant-color);
   cursor: pointer;
 }
 
@@ -45,7 +45,7 @@ header a:hover {
 }
 
 #navbarMenuToggle:hover {
-  fill: #1dc4b3;
+  fill: var(--accant-color);
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  text-decoration-color: #1dc4b3;
+  text-decoration-color: var(--accant-color);
 }
 
 /* #mask {
@@ -117,8 +117,11 @@ nav a:hover {
   right: 32px;
 }
 
-#loginSymbolPerson:hover {
-  filter: invert(62%) sepia(76%) saturate(468%) hue-rotate(124deg)
-    brightness(90%) contrast(85%);
+#loginSymbolPerson:hover svg path {
+  fill: var(--accant-color);
   cursor: pointer;
+}
+
+#loginSymbolPerson svg path {
+  fill: var(--secondary-color);
 }

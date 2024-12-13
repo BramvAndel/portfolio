@@ -24,7 +24,11 @@ $pathPrefix = $isIndexPage ? './' : '../';
     </div>
     <?php if (isset($_SESSION['username'])): ?>
         <a href="<?php echo $pathPrefix; ?>includes/logout.inc.php" id="loginSymbolPerson">
-            <img src="<?php echo $pathPrefix; ?>assets/images/logout.svg" alt="person symbol">
+            <!-- <img src="<?php echo $pathPrefix; ?>assets/images/logout.svg" alt="person symbol"> -->
+            <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 14L19.2 16.8L24.4 22H4V26H24.4L19.2 31.2L22 34L32 24L22 14ZM40 38H24V42H40C42.2 42 44 40.2 44 38V10C44 7.8 42.2 6 40 6H24V10H40V38Z" />
+            </svg>
+
         </a>
     <?php endif; ?>
     <svg id="navbarMenuToggle" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
