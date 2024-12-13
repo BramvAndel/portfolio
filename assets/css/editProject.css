@@ -79,11 +79,11 @@
 
 .editField textarea:focus,
 .editField textarea:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 .editField:focus-within label {
-  color: #1dc4b3;
+  color: var(--accent-color);
 }
 
 .editField input {
@@ -152,7 +152,7 @@
 .rightSideBottomRow button:hover,
 .leftSideBottomRow button:hover,
 .rightSideBottomRow a:hover {
-  background-color: #1dc4b3;
+  background-color: var(--accent-color);
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -162,5 +162,5 @@
 }
 
 .techButton.selected {
-  background-color: #1dc4b3;
+  background-color: var(--accent-color);
 }

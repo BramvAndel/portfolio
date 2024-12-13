@@ -42,7 +42,7 @@ form h1 {
 
 #loginForm input:focus,
 #loginForm input:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 #loginForm input:-webkit-autofill,
@@ -92,7 +92,7 @@ form h1 {
 }
 
 #login:hover {
-  color: #1dc4b3;
+  color: var(--accent-color);
 }
 
 .error {

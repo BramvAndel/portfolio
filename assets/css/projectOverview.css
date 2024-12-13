@@ -97,7 +97,7 @@ section {
 
 .projectButton:hover p {
   text-decoration: underline;
-  text-decoration-color: #1dc4b3;
+  text-decoration-color: var(--accent-color);
   color: var(--secondary-color);
 }
 
@@ -108,7 +108,7 @@ section {
 
 .projectButton:hover {
   background-color: var(--main-color);
-  outline: 1px solid #1dc4b3;
+  outline: 1px solid var(--accent-color);
 }
 
 .projectDate {
@@ -172,7 +172,7 @@ section {
 
 #newsEmail:focus,
 #newsEmail:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 .newsSignUp button {
@@ -212,7 +212,7 @@ section {
 }
 
 #newsSignUpButton:hover {
-  color: #1dc4b3;
+  color: var(--accent-color);
   cursor: pointer;
 }
 

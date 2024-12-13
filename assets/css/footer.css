@@ -82,7 +82,7 @@ footer {
 }
 
 .footerContentPages a:hover {
-  text-decoration-color: #1dc4b3;
+  text-decoration-color: var(--accent-color);
 }
 
 .footerContentMiddle {
@@ -137,7 +137,7 @@ footer {
 }
 
 .footerContactinformation a:hover svg path {
-  fill: #1dc4b3 !important;
+  fill: var(--accent-color) !important;
 }
 
 .footerContactinformation a:hover svg {
@@ -179,7 +179,7 @@ footer {
 
 #email:focus,
 #email:active {
-  outline: 2px solid #1dc4b3;
+  outline: 2px solid var(--accent-color);
 }
 
 #subscribe {
@@ -218,6 +218,6 @@ footer {
 }
 
 #subscribe:hover {
-  color: #1dc4b3;
+  color: var(--accent-color);
   cursor: pointer;
 }
