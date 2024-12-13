@@ -15,12 +15,6 @@
   font-style: normal;
 }
 
-.darkmode {
-  --main-color: #e6e6e6;
-  --secondary-color: #060606;
-  --secondary-color-light: #ffffff;
-}
-
 body {
   background-color: var(--main-color);
   font-family: "Goldman", sans-serif;
