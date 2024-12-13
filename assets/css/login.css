@@ -14,7 +14,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #e6e6e6;
+  background-color: var(--secondary-color);
   border-radius: 10px;
   width: 350px;
 }
@@ -51,7 +51,7 @@ form h1 {
 #loginForm textarea:-webkit-autofill,
 #loginForm textarea:-webkit-autofill:hover,
 #loginForm textarea:-webkit-autofill:focus {
-  -webkit-text-fill-color: #060606;
+  -webkit-text-fill-color: var(--main-color);
   -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
   transition: background-color 5000s ease-in-out 0s;
 }
@@ -62,9 +62,9 @@ form h1 {
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: #060606;
+  background-color: var(--main-color);
   border-radius: 4px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   border: none;
   outline: none;
   font-size: 1.5rem;
@@ -105,7 +105,7 @@ form h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 0.9rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   padding: 0.5rem 0;
 }
 

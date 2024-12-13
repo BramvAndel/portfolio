@@ -9,7 +9,7 @@ section {
   padding: 10rem;
   display: flex;
   flex-direction: column;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .mainpageTitle h1 {
@@ -60,13 +60,13 @@ section {
 
 .projectTitle {
   font-size: 3.5rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   margin-bottom: 12px;
 }
 
 .projectDescription {
   font-size: 1.3rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   margin-bottom: 32px;
   height: 100%;
 }
@@ -78,8 +78,8 @@ section {
 }
 
 .projectButton {
-  background-color: #e6e6e6;
-  color: #060606;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
@@ -98,7 +98,7 @@ section {
 .projectButton:hover p {
   text-decoration: underline;
   text-decoration-color: #1dc4b3;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .projectButton:hover img {
@@ -107,13 +107,13 @@ section {
 }
 
 .projectButton:hover {
-  background-color: #060606;
+  background-color: var(--main-color);
   outline: 1px solid #1dc4b3;
 }
 
 .projectDate {
   font-size: 1.5rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .noprojectDisplay {
@@ -132,13 +132,13 @@ section {
 .noprojectDisplay h2 {
   font-size: 4rem;
   margin-bottom: 24px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .noprojectDisplay p {
   font-size: 1.3rem;
   margin-bottom: 24px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   font-size: 1.3rem;
   font-family: "Arvo", serif;
   font-weight: 400;
@@ -156,7 +156,7 @@ section {
   height: 100%;
   padding: 13px;
   font-size: 1.5rem;
-  color: #060606;
+  color: var(--main-color);
   font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;
@@ -166,7 +166,7 @@ section {
 }
 
 #newsEmail::placeholder {
-  color: #060606;
+  color: var(--main-color);
   font-size: 1.5rem;
 }
 
@@ -178,8 +178,8 @@ section {
 .newsSignUp button {
   flex: 1;
   height: 100%;
-  background-color: #e6e6e6;
-  color: #060606;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
   font-size: 1.5rem;
   font-family: "Arvo", serif;
   font-weight: 400;

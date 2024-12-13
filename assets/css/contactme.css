@@ -11,7 +11,7 @@ main {
 }
 
 #contactForm {
-  background-color: #e6e6e6;
+  background-color: var(--secondary-color);
   border-radius: 4px;
   padding: 32px;
   height: fit-content;
@@ -25,7 +25,7 @@ main {
 #contactForm textarea:-webkit-autofill,
 #contactForm textarea:-webkit-autofill:hover,
 #contactForm textarea:-webkit-autofill:focus {
-  -webkit-text-fill-color: #060606;
+  -webkit-text-fill-color: var(--main-color);
   -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
   transition: background-color 5000s ease-in-out 0s;
 }
@@ -48,7 +48,7 @@ main {
   outline: none;
   padding: 1.1rem;
   border-radius: 4px;
-  color: #060606;
+  color: var(--main-color);
   font-size: 1.5rem;
   font-family: "Arvo", serif;
   font-weight: 400;
@@ -66,7 +66,7 @@ main {
 }
 
 input::placeholder {
-  color: #060606;
+  color: var(--main-color);
 }
 
 #contactMessage {
@@ -74,7 +74,7 @@ input::placeholder {
   outline: none;
   padding: 1.1rem;
   border-radius: 4px;
-  color: #060606;
+  color: var(--main-color);
   font-size: 1.5rem;
   font-family: "Arvo", serif;
   font-weight: 400;
@@ -86,7 +86,7 @@ input::placeholder {
 }
 
 textarea::placeholder {
-  color: #060606;
+  color: var(--main-color);
   text-align: left;
   vertical-align: top;
 }
@@ -95,8 +95,8 @@ textarea::placeholder {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #060606;
-  color: #e6e6e6;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -145,7 +145,7 @@ textarea::placeholder {
 
 #getInTouch {
   font-size: 7rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   align-self: flex-start;
 }
 
@@ -161,7 +161,7 @@ textarea::placeholder {
   margin-bottom: 0.8rem;
   padding: 0.8rem;
   border-radius: 4px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 #errorMessage {
@@ -174,7 +174,7 @@ textarea::placeholder {
 
 #errorMessage {
   background: #fc3939;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   font-size: 1.2rem;
   font-family: "Arvo", serif;
   font-weight: 400;
@@ -186,7 +186,7 @@ textarea::placeholder {
 
 #successMessage {
   background: #1dc4b3;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   font-size: 1.2rem;
   font-family: "Arvo", serif;
   font-weight: 400;

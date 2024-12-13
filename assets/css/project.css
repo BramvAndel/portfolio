@@ -6,7 +6,7 @@ section {
 }
 
 .projectTitle {
-  color: #e6e6e6;
+  color: var(--secondary-color);
   width: 100%;
   padding: 200px 0 0 0;
   display: flex;
@@ -44,19 +44,19 @@ section {
 
 .aboutProjectText h2 {
   font-size: 3.5rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   margin-bottom: 12px;
 }
 
 .aboutProjectText p {
   font-size: 1.3rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .projectMadewidth {
   width: 100%;
-  background-color: #e6e6e6;
-  color: #060606;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,7 +103,7 @@ section {
   gap: 128px;
   margin-bottom: 10rem;
   height: 420px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .projectProblemStuff > div > h2 {
@@ -126,15 +126,15 @@ section {
 
 .contactMeBalk {
   width: 100%;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 32px;
   height: 200px;
   margin-bottom: 160px;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 #contactMeBalkDecoLeft {
@@ -152,9 +152,9 @@ section {
   width: 360px;
   height: 60px;
   padding: 0.3rem;
-  background-color: #e6e6e6;
+  background-color: var(--secondary-color);
   border-radius: 4px;
-  color: #060606;
+  color: var(--main-color);
   font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;

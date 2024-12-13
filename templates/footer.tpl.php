@@ -46,7 +46,7 @@ $pathPrefix = $isIndexPage ? './' : '../';
             </a>
         </div>
     </div>
-    <div class="footerContentNewsLetter">
+    <!-- <div class="footerContentNewsLetter">
         <h2>Join the news letter!</h2>
         <form action="<?php echo $pathPrefix; ?>includes/newsletter.inc.php" method="post">
             <input type="text" name="email" id="email" placeholder="Email">
@@ -56,6 +56,6 @@ $pathPrefix = $isIndexPage ? './' : '../';
                 <img src="<?php echo $pathPrefix; ?>assets/images/bottomRightSmall.svg" alt="decoration" id="subscribeDecoRight">
             </button>
         </form>
-    </div>
+    </div> -->
     <img src="<?php echo $pathPrefix; ?>assets/images/topRightBig.svg" alt="decoration" id="footerDecoRight">
 </footer>

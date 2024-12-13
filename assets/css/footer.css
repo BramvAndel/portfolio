@@ -1,12 +1,12 @@
 footer {
-  background-color: #e6e6e6;
+  background-color: var(--secondary-color);
   position: relative;
   height: 390px;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 0 10rem;
 }
 
 #footerDecoRight {
@@ -22,8 +22,8 @@ footer {
 }
 
 .footerFooter {
-  background-color: #060606;
-  color: #e6e6e6;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   font-size: 1.5rem;
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .footerlink {
@@ -50,7 +50,7 @@ footer {
 }
 
 .footerContentPages a {
-  color: #060606;
+  color: var(--main-color);
   font-size: 2rem;
   text-decoration: underline;
   font-weight: 400;
@@ -69,16 +69,17 @@ footer {
   justify-content: center;
   align-items: center;
   height: 80%;
-  flex: 1;
-  border-right: 0.3rem solid #060606;
-  border-left: 0.3rem solid #060606;
+  /* flex: 1; */
+  /* border-right: 0.3rem solid var(--main-color); */
+  /* border-left: 0.3rem solid var(--main-color); */
+  /* padding-left: 10rem; */
 }
 
 .footerContentMiddle h2 {
   font-size: 8rem;
   font-weight: 400;
   font-style: normal;
-  color: #060606 !important;
+  color: var(--main-color) !important;
 }
 
 .footerContactinformation {
@@ -90,7 +91,7 @@ footer {
 }
 
 .footerContactinformation a {
-  color: #060606;
+  color: var(--main-color);
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 400;
@@ -110,7 +111,7 @@ footer {
 #linkedin-icon path,
 #tel-icon path,
 #mail-icon path {
-  fill: #060606;
+  fill: var(--main-color);
 }
 
 .footerContactinformation a:hover svg path {
@@ -138,7 +139,7 @@ footer {
 #email {
   background-color: #fff;
   border-radius: 10px;
-  color: #060606;
+  color: var(--main-color);
   border: none;
   outline: none;
   font-size: 1.5rem;
@@ -151,7 +152,7 @@ footer {
 }
 
 #email::placeholder {
-  color: #060606;
+  color: var(--main-color);
 }
 
 #email:focus,
@@ -165,9 +166,9 @@ footer {
   align-items: center;
   width: 260px;
   height: 45px;
-  background-color: #060606;
+  background-color: var(--main-color);
   border-radius: 4px;
-  color: #e6e6e6;
+  color: var(--secondary-color);
   border: none;
   outline: none;
   font-size: 1.5rem;

@@ -3,7 +3,7 @@ section {
   padding: 0 9rem;
   height: fit-content;
   margin-bottom: 10rem;
-  color: #e6e6e6;
+  color: var(--secondary-color);
 }
 
 .topTitle {
