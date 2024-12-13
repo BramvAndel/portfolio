@@ -8,11 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.5) 70%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: var(--header-gradient);
   transition: top 0.3s, transform 0.3s ease-in-out;
 }
 
@@ -64,7 +60,7 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--nav-color);
   backdrop-filter: blur(4px);
   transform: translateX(110%);
   transition: transform 0.3s ease-in-out;
