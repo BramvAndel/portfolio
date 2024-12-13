@@ -7,10 +7,11 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
-    <link rel="stylesheet" href="./assets/css/contactme.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <script src="./assets/js/header.js" defer></script>
     <script src="./assets/js/script.js" defer></script>
     <script src="./assets/js/navbar.js" defer></script>
+    <script src="./assets/js/eyes.js" defer></script>
 </head>
 
 <body>

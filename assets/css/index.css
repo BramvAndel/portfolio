@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100svh;
+  width: 100%;
+  z-index: 1;
+  /* padding: 80px; */
+}
