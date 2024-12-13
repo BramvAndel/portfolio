@@ -107,6 +107,52 @@ nav a:hover {
   transition: all 0.1s ease-in-out;
 }
 
+#theme-switch {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  /* background-color: var(--main-color); */
+  /* outline: 1px solid var(--secondary-color); */
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  border: none;
+  outline: none;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+#theme-switch:hover {
+  cursor: pointer;
+}
+
+#theme-switch:hover svg {
+  transform: rotate(360deg);
+  fill: var(--accent-color);
+}
+
+#theme-switch svg {
+  fill: var(--secondary-color);
+  transform-origin: center center;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  transform: rotate(0);
+}
+
+#theme-switch svg:last-child {
+  display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+  display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+  display: block;
+}
+
 #loginSymbolPerson {
   position: absolute;
   bottom: 32px;
