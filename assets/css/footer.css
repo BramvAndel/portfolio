@@ -15,10 +15,28 @@ footer {
   right: 2rem;
 }
 
+#footerDecoRight line {
+  stroke: var(--main-color);
+  stroke-width: 3;
+}
+
+#footerDecoRight line:nth-child(1) {
+  stroke-width: 4;
+}
+
 #footerDecoLeft {
   position: absolute;
   left: 2rem;
   bottom: 2rem;
+}
+
+#footerDecoLeft line {
+  stroke: var(--main-color);
+  stroke-width: 3;
+}
+
+#footerDecoLeft line:nth-child(1) {
+  stroke-width: 4;
 }
 
 .footerFooter {
@@ -34,6 +52,10 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 0 0 10px 10px;
+}
+
+.footerFooter svg path {
+  fill: var(--secondary-color);
 }
 
 .footerContentPages {

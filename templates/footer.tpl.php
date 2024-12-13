@@ -5,11 +5,18 @@ $pathPrefix = $isIndexPage ? './' : '../';
 <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/footer.css">
 <footer>
     <div class="footerFooter">
-        <img src="<?php echo $pathPrefix; ?>assets/images/dot.svg" alt="white dot">
+        <svg width="41" height="42" viewBox="0 0 41 42"xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.5 17.8728C19.5785 17.8728 18.6947 18.2389 18.0431 18.8905C17.3915 19.5421 17.0254 20.4259 17.0254 21.3474C17.0254 22.2689 17.3915 23.1527 18.0431 23.8043C18.6947 24.4559 19.5785 24.822 20.5 24.822C22.4284 24.822 23.9745 23.2758 23.9745 21.3474C23.9745 20.4259 23.6085 19.5421 22.9569 18.8905C22.3053 18.2389 21.4215 17.8728 20.5 17.8728Z"/>
+        </svg>
         <h2>Bottom thingy</h2>
-        <img src="<?php echo $pathPrefix; ?>assets/images/dot.svg" alt="white dot">
+         <svg width="41" height="42" viewBox="0 0 41 42"xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.5 17.8728C19.5785 17.8728 18.6947 18.2389 18.0431 18.8905C17.3915 19.5421 17.0254 20.4259 17.0254 21.3474C17.0254 22.2689 17.3915 23.1527 18.0431 23.8043C18.6947 24.4559 19.5785 24.822 20.5 24.822C22.4284 24.822 23.9745 23.2758 23.9745 21.3474C23.9745 20.4259 23.6085 19.5421 22.9569 18.8905C22.3053 18.2389 21.4215 17.8728 20.5 17.8728Z"/>
+        </svg>
     </div>
-    <img src="<?php echo $pathPrefix; ?>assets/images/bottomLeftBig.svg" alt="decoration" id="footerDecoLeft">
+     <svg width="74" height="74" viewBox="0 0 74 74"id="footerDecoLeft" xmlns="http://www.w3.org/2000/svg">
+        <line x1="1.41421" y1="1.58579" x2="72.1249" y2="72.2965"/>
+        <line x1="5.30285" y1="25.9811" x2="47.7293" y2="68.4075"/>
+    </svg>
     <div class="footerContentPages">
         <div class="footerlink">
             <a href="<?php echo $pathPrefix; ?>index.php">Home</a>
@@ -57,5 +64,8 @@ $pathPrefix = $isIndexPage ? './' : '../';
             </button>
         </form>
     </div> -->
-    <img src="<?php echo $pathPrefix; ?>assets/images/topRightBig.svg" alt="decoration" id="footerDecoRight">
+    <svg id="footerDecoRight" width="74" height="74" viewBox="0 0 74 74" xmlns="http://www.w3.org/2000/svg">
+        <line x1="72.2967" y1="72.1252" x2="1.58605" y2="1.41447"/>
+        <line x1="68.4071" y1="47.7298" x2="25.9807" y2="5.30345"/>
+    </svg>
 </footer>
