@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  width: 100%;
+  z-index: 1;
+  color: var(--secondary-color);
+  padding: 0 10rem;
+}
+
+h1 {
+  font-size: 15rem;
+  color: var(--main-color);
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke: 3px var(--secondary-color);
+  margin-right: 32px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
