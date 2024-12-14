@@ -85,8 +85,7 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </main>
-    <div id=" backgroundImage">
-    </div>
+    <div id=" backgroundImage"></div>
     <?php include '../templates/footer.tpl.php' ?>
 </body>
 
