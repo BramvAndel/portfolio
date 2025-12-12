@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loading-screen {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+
+}
+
+.loading-screen div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.js {
+    background-color: #F0DB4F;
+    animation: moveDown 2s ;
+}
+
+.py {
+    background-color: #4B8BBE;
+    animation: moveUp 2s ;
+}
+
+.html {
+    background-color: #E34F26;
+    animation: moveDown 2s ;
+}
+
+.css {
+    background-color: #1572B6;
+    animation: moveUp 2s ;
+}
+
+/* move down animation */
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+/* Ensure the element stays at the end position after animation */
+.js,
+.html {
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
+}
+
+.py,
+.css {
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
+}
