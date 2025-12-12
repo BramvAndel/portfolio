@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+/* body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+} */
+
+.loader {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.stripe-container {
+  position: absolute;
+  width: 220%;
+  height: 220%;
+  top: -60%;
+  left: -60%;
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- DIAGONAL STRIPES --- */
+
+.stripe {
+  width: 100%;
+  height: 40vh; /* adjust thickness easily */
+  animation: moveUp 1.5s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.99; */
+}
+
+.stripe.reverse {
+  animation-name: moveDown;
+}
+
+.stripe.letter {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-size: 20vh;
+  font-weight: 900;
+}
+
+.letter-span {
+  transform: rotate(-90deg);
+}
+
+:root {
+  --general-delay: 0.4s;
+}
+
+/* --- MOVE TOWARD TOP-LEFT --- */
+@keyframes moveUp {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-250%);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
