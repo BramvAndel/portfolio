@@ -87,10 +87,8 @@ stripes.forEach((stripe) => {
     if (finished === stripes.length) {
       const loader = document.querySelector(".loader");
       loader.style.opacity = 0;
-      setTimeout(() => {
-        loader.style.display = "none";
-        loader.remove();
-      }, 500);
+      loader.style.display = "none";
+      loader.remove();
     }
   });
 });
